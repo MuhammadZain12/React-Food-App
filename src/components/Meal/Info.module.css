@@ -1,0 +1,17 @@
+.info{
+  background-color: #525252;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+  width: 50%;
+  color:white;
+  margin: -5% 25%;
+  z-index: 5;
+  position: relative;
+}
+
+.info p{
+  text-align: center;
+}
+
+.info h1{
+  text-align: center;
+}

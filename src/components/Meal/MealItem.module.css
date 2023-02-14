@@ -1,0 +1,63 @@
+.mealItem{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: white;
+  max-height: 5rem;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+
+.mealDescription{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mealDescription p{
+  font-style: italic;
+  color: gray;
+  margin: 0;
+}
+
+.mealQuantitySelect h4,
+.mealDescription h4{
+  margin:7px 0px;
+}
+
+.price{
+  color: rgb(255, 116, 116);
+}
+
+.mealOrder{
+  display: flex;
+  justify-content: flex-start;
+  padding: 1% 1%;
+  flex-direction: column;
+  max-width: 9rem;
+}
+
+.buttonDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.orderButton{
+  width: 80%;
+}
+
+.mealQuantitySelect{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.quantity{
+  margin: 7px 0px;
+  max-width: 40%;
+  max-height: 80%;
+  border-radius: 5px;
+  border: 1px solid gray; 
+}

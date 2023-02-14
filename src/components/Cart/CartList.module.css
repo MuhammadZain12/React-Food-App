@@ -1,0 +1,61 @@
+.order {
+  position:fixed;
+  max-width: 60rem;
+  width: 50%;
+  background-color: white;
+  margin: 5rem auto;
+  z-index: 100;
+  overflow: hidden;
+  top: 10vh;
+  left: 25%;
+  bottom: 5vh;
+}
+
+.order ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.order li{
+  margin: 2rem 0rem;
+}
+
+.order hr{
+  opacity: 20%;
+  color: gray;
+}
+
+
+.cartForm{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.closebtn{
+  padding: 1% 3%;
+  border: 1px solid  rgb(179, 62, 62);
+  border-radius: 25px;
+  margin: auto 1%;
+  color: rgb(179, 62, 62);
+  font-weight: bold;
+}
+
+.closebtn:hover{
+  background-color:rgb(87, 11, 11);
+  color: white;
+  cursor: pointer;
+}
+
+.backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  border: 2px solid black; 
+  width: 100%;
+  height: 100vh;
+  opacity: 40%;
+  z-index: 10;
+}
